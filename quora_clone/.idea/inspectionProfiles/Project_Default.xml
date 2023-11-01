@@ -1,0 +1,73 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="5">
+            <item index="0" class="java.lang.String" itemvalue="endif" />
+            <item index="1" class="java.lang.String" itemvalue="{%" />
+            <item index="2" class="java.lang.String" itemvalue="%}" />
+            <item index="3" class="java.lang.String" itemvalue="message.tags" />
+            <item index="4" class="java.lang.String" itemvalue="if" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="W292" />
+          <option value="E722" />
+          <option value="E115" />
+          <option value="E402" />
+          <option value="W605" />
+          <option value="E501" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N801" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="id" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="Flask.app.flask_mysqldb" />
+          <option value="dbapp.models.Employee.objects" />
+          <option value="crudApp.models.Student.*" />
+          <option value="crudapp.models.Crud_office.objects" />
+          <option value="crudapp.models.Crud_office.DoesNotExist" />
+          <option value="django.contrib.auth.models.User.*" />
+          <option value="crudapp.models.Employee_details.*" />
+          <option value="restapp.models.Restapi.objects" />
+          <option value="rest_framework.authtoken.models.Token.objects" />
+          <option value="app_api.models.TrainedModel.objects" />
+          <option value="app_api.models.TrainedModel.DoesNotExist" />
+          <option value="app.models.TrainedModel.objects" />
+          <option value="app.models.TrainedModel.DoesNotExist" />
+          <option value="app.models.Trained_Model.objects" />
+          <option value="app.models.Trained_Model.DoesNotExist" />
+          <option value="restapp.admin.post" />
+          <option value="apptoken.models.Article.objetcs" />
+          <option value="apptoken.models.Article.objects" />
+          <option value="apptoken.models.Article.DoesNotExist" />
+          <option value="rest_framework.authtoken.models.Token.DoesNotExist" />
+          <option value="django.db.models.fields.related.OneToOneField.username" />
+          <option value="account.models.Profile.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

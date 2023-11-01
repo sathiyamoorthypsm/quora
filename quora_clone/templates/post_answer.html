@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Post an Answer</title>
+</head>
+<body>
+    <h2>Post an Answer</h2>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.text.label_tag }} {{ form.text }}
+        <br><br>
+        <button type="submit">Post Answer</button>
+    </form>
+    <p><a href="{% url 'view_questions' %}">View Questions</a></p>
+</body>
+</html>
